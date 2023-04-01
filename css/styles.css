@@ -1,0 +1,31 @@
+:root {
+    /* fonts */
+    --primary-font: 'Roboto', 'Open Sans' sans-serif;
+    --secondary-font: 'Relawey', sans-serif;
+    /* txt cl */
+    --main-txt-color: #2E2F42;
+    --secondary-txt-color: #434455;
+    --accent-txt-color: #fff;
+    --subtitle-txt-color: #8E8F99;
+    /* bg cl */
+    --main-bg-color: #fff;
+    --secondary-bg-color: #2E2F42;
+    --accent-bg-color: #E7E9FC;
+    --light-bg-color: #F4F4FD;
+    --hero-bg-color: rgba (46, 47, 66, 0.7);
+    --modal-bg-color: #FCFCFC;
+    /* common cl */
+    --primary-brand-color: #4D5AE5;
+    --pressed-state-color: #404BBF;
+    --succes-messages-color: #31D0AA;
+    --modal-overlay-color: rgba (46, 47, 66, 0.4);
+
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-txt-color);
+}
