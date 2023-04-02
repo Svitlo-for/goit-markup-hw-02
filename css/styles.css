@@ -57,7 +57,7 @@ body {
 .header-nav-link {
     color: var(--main-txt-color);
     font-weight: 500;
-}
+
 .header-nav-link:hover,
 .header-nav-link:focus {
     color: var(--pressed-state-color);
