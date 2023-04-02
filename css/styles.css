@@ -114,6 +114,9 @@ body {
 .team {
     background-color: var(--light-bg-color);
 }
+.team-item {
+    background-color: var(--accent-txt-color);
+}
 .button-filter {
     font-family: inherit;
     color: var(--primary-brand-color);
