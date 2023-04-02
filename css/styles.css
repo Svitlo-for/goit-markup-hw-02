@@ -28,7 +28,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-txt-color);
+    color: var(--secondary-txt-color);
     background-color: var(--main-bg-color);
 }
 .link {
@@ -55,15 +55,15 @@ body {
     color: var(--light-bg-color);
 }
 .header-nav-link {
+    color: var(--main-txt-color);
     font-weight: 500;
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
     color: var(--pressed-state-color);
 }
-.mail-tel-link {
+.mail-tel {
     font-style: normal;
-    color: var(--secondary-txt-color);
 }
 .mail-tel-link:hover,
 .mail-tel-link:focus {
@@ -77,6 +77,9 @@ body {
     font-size: 56px;
     line-height: 60px;
     color: var(--accent-txt-color);
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    text-align: center;
 }
 .button {
     font-family: inherit;
@@ -85,6 +88,8 @@ body {
     background-color: var(--primary-brand-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.5;
     font-weight: 500;
     letter-spacing: 0.04em;
 }
@@ -92,31 +97,33 @@ body {
 .button:focus {
     background-color: var(--pressed-state-color);
 }
-.title-header-three {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-}
-.title-p {
-    color: var(--secondary-txt-color);
-}
 .title-header-two {
+    color: var(--main-txt-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+}
+.title-header-three {
+    color: var(--main-txt-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .team {
     background-color: var(--light-bg-color);
-}
-.team-position {
-    color: var(--secondary-txt-color);
 }
 .button-filter {
     font-family: inherit;
     color: var(--primary-brand-color);
     cursor: pointer;
     background-color: var(--light-bg-color);
+    font-size: 16px;
     font-weight: 500;
+    line-height: 1.5;
     border-radius: 4px;
     letter-spacing: 0.04em;
     border: 1px solid var(--accent-bg-color);
@@ -127,8 +134,8 @@ body {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: var(--accent-txt-color);
 }
-.title-filter {
-    color: var(--secondary-txt-color); 
+.team-list {
+    background-color: var(--main-bg-color);
 }
 
 
